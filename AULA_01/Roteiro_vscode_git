@@ -12,7 +12,7 @@ python -m venv venv
 
 2.	Ative o ambiente:
 o	Windows: .\venv\Scripts\activate
-o	Mac/Linux: source venv/bin/activate (Esperado: Ver o prefixo (venv) aparecer no terminal)
+o	Linux: source venv/bin/activate (Esperado: Ver o prefixo (venv) aparecer no terminal)
 
 Passo 3: Blindagem (.gitignore)
 1.	Crie um arquivo chamado .gitignore.
