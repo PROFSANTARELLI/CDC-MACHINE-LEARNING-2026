@@ -11,14 +11,14 @@ data = {
 # Converte o dicionário em um DataFrame do Pandas
 df = pd.DataFrame(data)
 
-# 2. Exploração de Dados (DOD da Sprint 1)
+# 2. Exploração de Dados
 print("--- Primeiras 5 linhas do Dataset ---")
 print(df.head())
 
 print("\n--- Estatísticas Descritivas ---")
 print(df.describe())
 
-# 3. Visualização (A "Prova" do resultado)
+# 3. Visualização
 plt.figure(figsize=(10, 6))
 plt.scatter(df['valor'], df['satisfacao'], color='blue', edgecolors='black', alpha=0.7)
 
