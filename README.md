@@ -13,4 +13,10 @@ Machine Learning e chatbot 2026 - turma de segunda-feira - CiÃªncias da ComputaÃ
 
 ATIVIDADES COMPLEMENTARES:
 
-SPRINT 1: Aula-01: 0,2 ponto - Aula-02: 0,15 ponto
+SPRINT 1: Aula-01: 0,15 ponto(02/02) --- Aula-02: 0,35 ponto (23/02)
+
+SPRINT 2:
+
+SPRINT 3:
+
+SPRINT 4:
