@@ -1,0 +1,76 @@
+ATENÇÃO: Aqui vc já deverá ter criado seu repositório no github - sugestão de nome: ML-CHATBOT-"APELIDO GRUPO"
+
+
+Passo 1: Preparação da Área de Trabalho
+
+1.	Abra o VS Code.
+2.	Crie uma pasta local com o mesmo nome do repositório criado (ML-CHATBOT-"APELIDO GRUPO")
+3.	No terminal do VS Code (Ctrl + '), verifique o Python:
+python --version (caso não rode comando python, use comando python3)
+(Esperado: Python 3.10 ou superior)
+
+Passo 2:  (Ambiente Virtual)
+1.	Crie o ambiente:
+python -m venv venv (caso não rode comando python, use comando python3)
+
+2.	Ative o ambiente:
+o	Windows: .\venv\Scripts\activate
+o	Linux: source venv/bin/activate (Esperado: Ver o prefixo (venv) aparecer no terminal)
+
+Passo 3: Blindagem (.gitignore)
+1.	Crie um arquivo chamado .gitignore.
+2.	Escreva exatamente isso dentro:
+Plaintext
+venv/
+__pycache__/
+.env
+*.csv
+(Nota: Ignoramos o CSV por enquanto).
+
+Passo 4: Instalação das Dependências
+1.	Instale o básico:
+pip install pandas matplotlib scikit-learn
+(neste momento, caso não seja permitido instalar as bibliotecas acima, ignore e passe para a próxima etapa)
+
+2.	Gere o arquivo de requisitos:
+
+pip freeze > requirements.txt
+Passo 5: Teste de Integridade
+1.	Crie o arquivo check_env.py com O código disponibilizado.
+
+2.	Execute:
+python check_env.py (caso não rode comando python, use comando python3)
+(Esperado: "RESULTADO: PRONTO PARA AULA!")
+
+Passo 6: Conectando Git & GitHub
+1.	Crie um repositório vazio no seu GitHub pessoal com o nome ML-CHATBOT-"APELIDO GRUPO".
+2.	No terminal:
+git init
+git add .
+git commit -m "feat: setup inicial"
+git branch -M main
+git remote add origin https://github.com/SEU_USUARIO/ML-CHATBOT-"APELIDO GRUPO"
+git push -u origin main
+
+Passo 7: exercicio
+1.	gere o arquivo Main.py e coloque os dados fictícios (pegar no github do professor)
+2.	Rode o código:
+python Main.py
+(Esperado: Ver o gráfico de dispersão na tela).
+
+Passo 8: Finalização
+1.	Dê o push final:
+git add .
+git commit -m "docs: atualizando readme com resultados"
+git push
+
+AGORA, REALIZE A EXECUÇÃO DA ÚLTIMA TAREFA DETERMINADA NA PASTA SPRINT_1
+1 - execute os arquivos Python (pegar os arquivos no repositório do professor: aula02_ml.py e gerador_01.py)
+2 - Rode no VScode o gerador_01.py
+3 - Rode no VScode o aula02_ml.py
+4 - Coloque o resultado (print) na sprint 1 do Github Projects
+5 - Suba no seu repositório, via comandos GIT, os arquivos aula02_ml.py, gerador_01.py e chatbot_data.csv
+git add aula02_ml.py gerador_01.py chatbot_data.csv
+git commit -m "arquivos aula 02"
+git push origin main
+
