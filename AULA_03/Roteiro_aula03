@@ -21,7 +21,7 @@ Ação: Aprender a usar o Pandas para transformar frases em colunas numéricas (
 - Salve e execute este script para criar o novo arquivo mensagens_suporte.csv
 python Gerador_02.py
 
-- Execute o algoritmo machine learning da atividade 1: python Atividade_02.py
+- Execute o algoritmo machine learning da atividade 1: python Atividade_01.py
 
 - Colete o resultado gerado e adicione na ISSUE SPRINT-2 (pode ser Copia e Cola ou print do resultado na linha de comando)
 
@@ -32,7 +32,7 @@ ATIVIDADE 2 - AULA 03 - Árvore de Decisão (Classificação de Prioridade)
 Cenário: O SAC da empresa está sobrecarregado. Precisamos de um modelo que decida se um ticket deve ir para a fila "Alta Prioridade" ou "Fila Comum".
 Objetivo Prático: Treinar o modelo para entender que mensagens com muitas exclamações e palavras de alerta são críticas. A árvore busca o Ganho de Informação. Ela escolhe a variável que melhor "separa" os dados em grupos puros.
 
-- Execute o algoritmo machine learning da atividade 2: python (ou python3) Atividade_03.py
+- Execute o algoritmo machine learning da atividade 2: python (ou python3) Atividade_02.py
 
 - Colete o resultado gerado e adicione na ISSUE SPRINT-2 (pode ser Copia e Cola ou print do resultado na linha de comando)
 
@@ -43,7 +43,7 @@ ATIVIDADE 3 - AULA 03 - Regressão Linear (Estimativa de Tempo de Resposta)
 Cenário: O cliente quer saber: "Em quanto tempo serei atendido?". A Regressão não dirá "Sim ou Não", mas sim um número contínuo (minutos).
 Objetivo Prático: Prever o tempo de espera baseado na complexidade da mensagem (tamanho do texto).
 
-- Execute o algoritmo machine learning da atividade 3: python (ou python3) Atividade_04.py
+- Execute o algoritmo machine learning da atividade 3: python (ou python3) Atividade_03.py
 
 - Colete o resultado gerado e adicione na ISSUE SPRINT-2 (pode ser Copia e Cola ou print do resultado na linha de comando)
 
