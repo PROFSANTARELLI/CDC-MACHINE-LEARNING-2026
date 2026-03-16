@@ -5,6 +5,7 @@ CALENDÁRIO DE MARÇO:
 - 23/03/2026: PROVA INDIVIDUAL (AAI) - VALOR 0,5 ponto
 - 30/03/2026: SPRINT-02 (AC-2) - ÚLTIMA ETAPA - VALOR 0,25 ponto
 
+Verificar material de estudo de prova AAI
 
 
 3ª ETAPA da SPRINT-02 (AC-2) - Valor da atividade de hoje: 0,25 pts
@@ -14,57 +15,35 @@ PREPARAÇÃO:
 
 link: https://github.com/PROFSANTARELLI/CDC-MACHINE-LEARNING-2026
 
-- Suba todos os arquivos da aula 04 para o repositório oficial do Grupo.
+- Suba todos os arquivos da aula 05 para o repositório oficial do Grupo.
 - Realize as atividades abaixo:
 
 
+ATIVIDADE 1
+Objetivo: Avaliar Texto com PNL
 
-
-
-ATIVIDADE 1 - AULA 04 
-Objetivo: medir a qualidade do erro e organizar o código de forma escalável usando Pipelines.
-
-- Execute o Script de Geração de Dados de Telemetria: Este script cria um cenário realista onde o custo de processamento de um chatbot não é linear e possui escalas diferentes (Mensagens vs. Latência).
-
-python Gerador_Telemetria.py
-
-- Execute o código de Pipelines e Métricas: Ele introduz o StandardScaler (normalização) e o Pipeline.
-
-python Pipeline_metricas.py
+- Execute o código: atv_pnl_01.py
 
 Entregáveis 1:
-- Colete o primeiro resultado, avalie o custo previsto para o novo cenário e descreva as considerações do grupo.
-- Após primeiro resultado, mude os dados imputados (Hard coded) para o cenário de 1350 msgs/seg, 280ms de latência e 7O% de CPU.
-- Colete o segundo resultado e avalie o custo previsto para o novo cenário. Descreva as considerações pessoais do grupo.
-- Faça uma explicação do motivo das diferenças entre os dois resultados
+- Colete o resultado
 - Coloque toda as respostas na Sprint-2
 
 Atividade 1 cumprida com SUCESSO!
 
 
 
-
-
-ATIVIDADE 2 - AULA 04 
+ATIVIDADE 2
 Objetivo: identificar a falha máxima do modelo para validar a sua robustez e entender o impacto de dados anómalos nas métricas.
 
-- Execute o código de Pipelines e Métricas: Ele introduz o StandardScaler (normalização) e o Pipeline.
+Objetivo: Trabalhar com PNL
 
-python exercicio_outliers.py
+- Execute o código: atv_pnl_02.py
 
 Entregáveis 2:
-- Colete o resultado e avalie o custo previsto para o novo cenário.
-- Descreva as considerações pessoais do grupo em relação ao diagnóstico de anomalias.
-- Coloque as respostas no SPRINT-02.
+- Colete o resultado e explique tudo que aconteceu nas 3 etapas do código PNL
+- Coloque toda as respostas na Sprint-2.
 
 Atividade 2 cumprida com SUCESSO!
-
-
-
-
-ATENÇÃO: Para as atividades 3 e 4 usar o gerador: Gerador_Métricas_ML.py
-
-python Gerador_Métricas_ML.py
 
 
 
