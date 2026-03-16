@@ -19,7 +19,7 @@ link: https://github.com/PROFSANTARELLI/CDC-MACHINE-LEARNING-2026
 - Realize as atividades abaixo:
 
 
-ATIVIDADE 1
+ATIVIDADE 1 - Aprendizado inicial
 Objetivo: Avaliar Texto com PNL
 
 - Execute o código: atv_pnl_01.py
@@ -32,9 +32,7 @@ Atividade 1 cumprida com SUCESSO!
 
 
 
-ATIVIDADE 2
-Objetivo: identificar a falha máxima do modelo para validar a sua robustez e entender o impacto de dados anómalos nas métricas.
-
+ATIVIDADE 2 - Pipeline PNL
 Objetivo: Trabalhar com PNL
 
 - Execute o código: atv_pnl_02.py
@@ -47,51 +45,71 @@ Atividade 2 cumprida com SUCESSO!
 
 
 
-ATIVIDADE 3 - Avaliando resultado por MAE (Erro Médio Absoluto)
-Cenário:Criando dados simulados de um Chatbot: Custo Real vs Custo Previsto pelo modelo
+ATIVIDADE 3 - Limpeza de Texto
+Objetivo: Trabalhar com PNL
 
-- Execute o algoritmo machine learning da atividade 3: python exercicio_03_mae.py
+- Execute o código: atv_pnl_03.py
 
-- Expplique o que ocorreu neste resultado
-
-- Colete o resultado gerado e adicione na SPRINT-2 (pode ser Copia e Cola ou print do resultado na linha de comando)
+Entregáveis 3:
+- Colete o resultado e explique tudo que aconteceu no código PNL
+- Coloque toda as respostas na Sprint-2.
 
 Atividade 3 cumprida com SUCESSO!
 
 
 
+ATIVIDADE 4 - Vetorização de Texto
+Objetivo: Trabalhar com PNL
+
+- Execute o código: atv_pnl_04.py
+
+Entregáveis 4:
+- Colete o resultado e explique tudo que aconteceu no código PNL
+- Coloque toda as respostas na Sprint-2.
+
+Atividade 3 cumprida com SUCESSO!
 
 
 
-ATIVIDADE 4 - Avaliando resultado por RMSE (Raiz do Erro Quadrático Médio)
+ATIVIDADE 5 - Contador de Palavras
+Objetivo: Trabalhar com PNL
 
-Cenário:Criando dados simulados de um Chatbot: Custo Real vs Custo Previsto pelo modelo
+- Execute o código: atv_pnl_05.py
 
-- Execute o algoritmo machine learning da atividade 4: python execicio_04_rmse.py
-
-- Colete o resultado gerado e adicione na SPRINT-2 (pode ser Copia e Cola ou print do resultado na linha de comando)
-
-Atividade 4 cumprida com SUCESSO!
-
-
-
-
-
-
-ATIVIDADE 5 - Estatística descritiva com Python
-
-Objetivo: relembrar os conceitos de Estatística Descritiva
-
-- Execute o gerador de dados desta atividade: python Gerador_dados_estatisticos.py
-
-- Execute o algoritmo de estatística: python Exercicio_05_estatitica.py
-
-- Explique o resultado de cada um dos resultados do algoritmo, além de explicar o que é: a média, a moda, a mediana e o desvio padrão
-
-- Colete o resultado gerado e adicione na SPRINT-2 (pode ser Copia e Cola ou print do resultado na linha de comando)
+Entregáveis 5:
+- Complete o código para construir o contador de palavras
+- Colete o resultado e explique tudo que aconteceu no código PNL
+- Coloque toda as respostas na Sprint-2.
 
 Atividade 5 cumprida com SUCESSO!
 
 
+
+
+ATIVIDADE 6 - Frequência de Palavras
+Objetivo: Trabalhar com PNL
+
+- Execute o código: atv_pnl_06.py
+
+Entregáveis 6:
+- Complete o código para construir Frequência de Palavras
+- Colete o resultado e explique tudo que aconteceu no código PNL
+- Coloque toda as respostas na Sprint-2.
+
+Atividade 6 cumprida com SUCESSO!
+
+
+
+ATIVIDADE 7 - Classificador Simples de Intenção
+Objetivo: Trabalhar com PNL
+
+- Execute o código: atv_pnl_07.py
+
+Entregáveis 7:
+- Complete o código para construir o Classificador Simples de Intenção
+- Colete o resultado e explique tudo que aconteceu no código PNL
+- Coloque toda as respostas na Sprint-2.
+
+Atividade 7 cumprida com SUCESSO!
 
 BOA ATIVIDADE A TODOS!
