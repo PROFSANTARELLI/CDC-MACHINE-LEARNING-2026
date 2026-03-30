@@ -1,0 +1,49 @@
+Aula 06: Vetorização e Extração de Atributos
+
+1. O que é Vetorização?
+
+Vetorizar é mapear palavras em um espaço matemático n-dimensional.
+Como computadores são calculadoras de matrizes, cada frase precisa se tornar um Vetor de Características (Feature Vector).
+
+
+2. Técnicas Fundamentais
+
+A. Bag of Words (BoW)
+
+  - O "Saco de Palavras" foca apenas na presença e frequência das palavras, ignorando a ordem e o contexto.
+
+  - Funcionamento: Cria um vocabulário global. Cada frase vira um vetor com a contagem de vezes que cada palavra do vocabulário aparece.
+
+  - Vantagem: Simplicidade extrema.
+
+  - Limitação: Palavras comuns (ruído) recebem o mesmo peso que palavras raras (importantes).
+
+
+B. TF-IDF - Term Frequency – Inverse Document Frequency.
+
+Funciona como um filtro automático de relevância.
+
+  - TF (Frequência do Termo): "Esta palavra aparece muito nesta mensagem?"
+
+  - IDF (Frequência Inversa): "Esta palavra é rara no conjunto total de mensagens?"
+
+  - Lógica: Uma palavra ganha peso alto se é frequente na mensagem atual, mas rara no restante do banco de dados (ex: nomes de erros, modelos de produtos).
+
+
+3. Conceitos Técnicos Críticos
+
+Matriz Esparsa (Sparse Matrix)
+
+  - Como o vocabulário total é imenso (ex: 10.000 palavras) e uma mensagem de chat é curta (ex: 5 palavras), a maioria da matriz será composta por zeros.
+
+  - Engenharia: Armazenamos apenas os índices dos valores diferentes de zero para economizar memória RAM e CPU.
+
+Espaço de Atributos (Feature Space)
+
+  - Cada palavra única do seu treinamento torna-se uma "coluna" na sua tabela final. Se o vocabulário tem 500 palavras, seu modelo de ML terá 500 variáveis de entrada.
+
+
+4. Por que isso importa para Chatbots?
+
+Sem a vetorização, não existe "distância" entre frases.
+Com vetores, o modelo pode calcular que a frase "quero cancelar" está matematicamente mais próxima de "cancelamento" do que de "bom dia".
