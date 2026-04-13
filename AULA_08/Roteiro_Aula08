@@ -34,13 +34,13 @@ ATIVIDADE 2
  1 - Baixe em PDF o documento de especificação técnica criado na aula anteior
  2 - Abra a IA CLAUDE.IA, acesse com sua conta Google e siga as instruções a seguir
  3 - Coloque uma skill para ele como assistente especialista em Machine Learning (sigas as intruções do arquivo: skill_claude.txt)
- 4 - Insira o arquivo PDF que foi baixado
- 5 - Coloque o prompt no chat da Skill criada (sisga as instruções do arquivo: prompt_biomedicina.txt)
+ 4 - Coloque o prompt no chat da Skill criada (siga as instruções do arquivo: prompt_biomedicina.txt)
+ 5 - Insira o arquivo PDF que foi baixado
  6 - Coloque o código de dados sintético criado para rodar no Google Colab
- 7 - Coloque o arquivo CSV gerado no GITHUB do grupo
- 8 - Peça para o Claude gerar o algoritmo que irá treinar o modelo segundo o documento de especificação técnica e usando o arquivo CSV gerado
- 9 - Coloque o código e os resultados na SPRINT-3
-10 - Avise o professor que terminou e chame para validar tudo que foi pedido e os presentes na aula
+ 7 - Rode em seguinda o algoritmo que irá treinar o modelo segundo o documento de especificação técnica e usando o arquivo CSV gerado
+ 8 - Coloque o arquivo CSV gerado no GITHUB do grupo
+ 9 - Coloque os códigos no repositório oficial do grupos e apenas os resultados na SPRINT-3
+10 - Avise o professor que terminou e chame para validar tudo que foi pedido e os alunos que estão presentes nesta atividade em sala.
 
 
 
