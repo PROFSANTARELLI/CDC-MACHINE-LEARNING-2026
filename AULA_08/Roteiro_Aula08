@@ -29,7 +29,7 @@ ATIVIDADE 1
 - Abra o arquivo ml_api.md, lendo e executando seu passo a passo.
 
 ATIVIDADE 2
-- CRIAR DATASET PARA O PROJETO DIAGNÓSTICOS PARA BIOMEDICINA:
+- CRIAR DATASET E O ALGORITMO ML PARA O PROJETO DIAGNÓSTICOS PARA BIOMEDICINA:
  1 - Baixe em PDF o documento de especificação técnica criado na aula anteior
  2 - Abra a IA CLAUDE.IA, acesse com sua conta Google e siga as instruções a seguir
  3 - Coloque uma skill para ele como assistente especialista em Machine Learning (sigas as intruções do arquivo: skill_claude.txt)
