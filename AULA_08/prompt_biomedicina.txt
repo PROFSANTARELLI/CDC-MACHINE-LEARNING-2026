@@ -11,9 +11,9 @@ IMC
 colesterol
 
 Variável alvo:
-risco (0 = baixo risco, 1 = alto médio, 2 = risco alto)
-SUA MISSÃO
+risco (0 = baixo risco, 1 = risco médio, 2 = risco alto)
 
+SUA MISSÃO
 Gerar 3 blocos principais de código:
 
 1. GERADOR DE DATASET (2000 REGISTROS)
