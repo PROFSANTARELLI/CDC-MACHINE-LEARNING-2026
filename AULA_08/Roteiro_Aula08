@@ -26,7 +26,8 @@ PARTE 2 - PROJETO SPRINT-3 (AC-3) - Valor de 0,3 ponto
 
 ATIVIDADE 1
 - Realize a atividade de construção de API para ML Python, executando pelo Google Colab e colocando os resultados na SPRINT-3 (O objetivo é o primeiro contato entre ML e API)
-- Abra o arquivo ml_api.md, lendo e executando seu passo a passo.
+- Abra o arquivo ml_api.txt, lendo e executando seu passo a passo.
+- Coloque o resultado na janela da SPRINT-3
 
 ATIVIDADE 2
 - CRIAR DATASET E O ALGORITMO ML PARA O PROJETO DIAGNÓSTICOS PARA BIOMEDICINA:
