@@ -5,7 +5,7 @@ CALENDÁRIO DE MAIO - FOCO: SPRINT-4 AC-4  - CHATBOTS
     - AULA 18/05 - Etapa 3: Análise e construção de Chatbot - Valor: 0,3 pt
     - AULA 25/05 - Etapa 4: Análise e construção de Chatbot - Valor: 0,3 pt
 
-ROTEIRO DA AULA 11 - 04/05:
+ROTEIRO DA AULA 10 - 04/05:
 
 PARTE 1 - ENTREGA E ENCERRAMENTO DA SPRINT-3 (AC-3)
   - Subida do vídeo (pitch de até 3 min) no AVA e seguir as orientações que estão lá
