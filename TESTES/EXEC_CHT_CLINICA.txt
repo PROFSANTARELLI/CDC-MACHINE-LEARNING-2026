@@ -1,0 +1,45 @@
+Exercício: Especificação do seu Chatbot Clínico (Valor na AC-4: 0,1)
+
+Objetivo: Elaborar o documento de arquitetura e design conversacional para o chatbot do projeto Clínica de Biomedicina.
+Até agora, você desenvolveu o Machine Learning, o Banco de Dados e App do seu sistema. Hoje, você deve projetar o Chatbot.
+
+Neste exercício, vocês devem produzir um documento de especificação técnica que descreva exatamente como o chatbot irá interagir com o paciente e como ele usará as ferramentas que vocês já construíram.
+
+Seu documento deve conter as seguintes seções:
+
+1. Definição da Persona e Tom de Voz
+- Nome do Bot: Como o assistente se identifica?
+- Personalidade: Ele é um médico formal? Um assistente de triagem ágil? Um enfermeiro empático?
+Exemplo de Saudação: Escreva a primeira frase que o bot dirá ao usuário.
+
+2. Requisitos Funcionais (O que ele resolve?)
+- Liste 3 funções principais. Exemplos:
+  - Triagem de Emergência: Usar Regex para identificar sintomas graves (dor no peito, falta de ar).
+  - Consulta de Valores: Responder se um valor de glicose digitado é perigoso (consultando o clinica.db).
+  - Coleta para IA: Pedir os dados necessários para rodar o modelo_saude.pkl.
+
+3. Design do Fluxo Conversacional
+Desenhe (ou descreva em tópicos) o caminho "feliz" da conversa:
+Saudação e Identificação.
+Relato do sintoma pelo usuário.
+Análise de urgência pelo bot.
+Solicitação de indicadores (Glicose, IMC, etc).
+Entrega do diagnóstico gerado pela IA.
+
+4. Tratamento de Erros e Exceções
+Como o bot reage se:
+O usuário digitar algo que o bot não entende?
+O usuário se recusar a passar um dado?
+O modelo de IA retornar um erro de processamento?
+
+Instruções de Entrega
+Formato: O documento deve ser entregue em Markdown (.md).
+
+Avaliação:
+Coerência Clínica: O fluxo faz sentido para um hospital?
+Integração Técnica: Ficou claro como o bot usa o SQL e o arquivo .pkl?
+Segurança: O bot sabe identificar uma emergência via texto?
+
+Dica:
+"Um bom chatbot não é aquele que sabe falar de tudo, mas aquele que sabe levar o usuário do problema à solução sem confusão.
+Antes de programar, valide se o seu fluxo não tem 'becos sem saída' onde o usuário fica preso."
