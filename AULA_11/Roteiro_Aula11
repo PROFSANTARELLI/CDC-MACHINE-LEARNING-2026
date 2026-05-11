@@ -8,7 +8,7 @@ CALENDÁRIO DE MAIO - FOCO: SPRINT-4 AC-4  - CHATBOTS
 
 ROTEIRO DA AULA 11 - 11/05: - CONSTRUÇÃO E EVOLUÇÃO CHAT BOT
 
-ETAPA 1: CHATBOTS INICIAIS
+ETAPA 1: CHATBOTS INICIAIS - VALOR 0,1
 1 - No Github Projects coloque a SPRINT-3 em "Finalizado"
 2 - Coloque a SPRINT-4 "Em Execução", caso ainda não tenha feito.
 3 - Execute, teste, valide e capture cada um dos exercícios pontuados abaixo. Os detalhes estão no cabeçalho do próprio exercício
@@ -18,7 +18,10 @@ ETAPA 1: CHATBOTS INICIAIS
 4 - No final de cada arquivo está descrito o que você precisa colocar nas janelas da SPRINT-4
 
 
-ETAPA 2: PREPARANDO CHATBOT PARA A CLÍNICA
+ETAPA 2: PREPARANDO CHATBOT PARA A CLÍNICA - VALOR 0,1
+1 - Leia o arquivo EXEC_CHT_CLINICA.txt
+2 - Construa o documento que vai definir as características que o chatbot terá para a clínica
+3 - Salve o arquivo produzido na SPRINT-4
 
 
 ETAPA 3: DÚVIDAS SOBRE PROJETO TECH
